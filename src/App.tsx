@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import InputForm from "./components/form/InputForm";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div>
-      <h1>hello World</h1>
+      {/* <h1>hello World</h1>
       <div className="card">
         <button onClick={() => setCount((prev) => prev + 1)}>
           Count is {count}
@@ -26,7 +27,9 @@ function App() {
           React
         </a>
       </div>
-      <p>Edit src/App.tsx and save to test HMR</p>
+      <p>Edit src/App.tsx and save to test HMR</p> */}
+
+      <InputForm />
     </div>
   );
 }
